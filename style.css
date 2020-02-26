@@ -43,3 +43,12 @@ html {
 .fa-lock {
   color: white;
 }
+
+.items li {
+  list-style: none;
+  display: inline-block;
+}
+
+.main-section {
+  
+}
