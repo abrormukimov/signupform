@@ -2,3 +2,44 @@ html {
   width: 100%;
   height: auto;
 }
+
+* *::before *::after {
+  box-sizing: border-box;
+}
+
+.sign-in-area {
+  float: right;
+  margin: 2px 25px 2px 0;
+}
+
+.forgot-id {
+  text-decoration: none;
+}
+
+.sign-in-container {
+  float: left;
+  font-size: 14px;
+  font-family: Helvetica, sans-serif;
+}
+
+.sign-in-container > div {
+  color: #505050;
+}
+
+.btn-sign-in {
+  float: left;
+  padding: 6px 10px;
+  background-color: blue;
+  border-radius: 4px;
+  margin: 2px 5px 2px 10px;
+}
+
+.sign-in-button {
+  background: blue;
+  border: 0;
+  color: white;
+}
+
+.fa-lock {
+  color: white;
+}
