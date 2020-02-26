@@ -8,7 +8,7 @@
     <script src="https://kit.fontawesome.com/778421a61f.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <section class="sign-up-page">
+    <nav>
         <div>
             <div class="sign-in-area">
                 <div class="sign-in-container">
@@ -21,6 +21,8 @@
                 </div>
             </div>  
         </div>
+    </nav>
+    <section class="sign-up-page">
         <br>
         <header class="main-section">
             <div class="main-logo">
@@ -48,12 +50,11 @@
             <fieldset class="user-info-container">
                 <label>
                     Email address
-                    <input type="email" name="email">
+                    <input class="input" type="email" name="email">
                   </label>
                   <label>
                     Phone (recommended)
                     <input type="text" name="tel">
-                    <span>Standard call, messaging or data rates may apply</span>
                   </label>
                   <label>   
                     Password
@@ -72,8 +73,18 @@
             </div>
         </form>
     </section>
-    <footer>
-
+    <footer class="footer">
+        <div class="extra-info">
+            <ul class="info-list">
+                <li>Legal</li>
+                <li>Privacy</li>
+                <li>Security</li>
+            </ul>
+        </div>
+        <div class="btm-copyright">
+            <span>&copy; 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.</span>
+            <span>Terms and conditions, features, support, pricing, and service options subject to change without notice.</span>
+        </div>
     </footer>
 </body>
 </html>
