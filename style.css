@@ -2,7 +2,8 @@ html {
   width: 100%;
   height: auto;
   background: #eceef1;
-  font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-family: AvenirNext, Avenir, Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #505050;
 }
 
 * *::before *::after {
@@ -21,7 +22,7 @@ html {
 .sign-in-container {
   float: left;
   font-size: 14px;
-  font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-family: AvenirNext, Avenir, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 .sign-in-container > div {
@@ -50,26 +51,33 @@ html {
 .items li {
   list-style: none;
   display: inline-block;
-  font-family: AvenirNext,Avenir,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-family: AvenirNext, Avenir, Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: large;
-  
-} 
+}
 
 .main-section {
   margin-top: 60px;
 }
 
-h2, h1 {
+h1,
+h2 {
   text-align: center;
 }
 
-.top-bar, .top-bar a {
+a {
+  text-decoration: none;
+}
+
+.top-bar,
+.top-bar a {
   display: block;
   text-align: center;
+  font-size: 14px;
+  margin-bottom: 20px;
 }
 
 .items {
-  text-align: center;  
+  text-align: center;
 }
 
 form {
@@ -77,15 +85,11 @@ form {
   background: #fff;
   width: 380px;
   margin: auto;
-  border-radius: 2px;    
+  border-radius: 2px;
 }
 
 .user-info-container {
   border: 0;
-}
-
-a {
-  text-decoration: none;
 }
 
 .user-info-container input {
@@ -94,18 +98,19 @@ a {
   border-radius: 4px;
   border: 1px solid rgb(204, 200, 200);
   margin: 10px 0 27px 10px;
-  padding: 8px 0px;
+  padding: 8px;
 }
 
 label {
   margin-left: 10px;
 }
+
 .btn-submit {
   background: #0077c5;
   font-size: x-large;
   border-radius: 4px;
   border: 0;
-  width: 320px;
+  width: 340px;
   margin: 10px 0 0 10px;
   padding: 5px;
   font-weight: lighter;
@@ -114,7 +119,6 @@ label {
 .user-info-container span {
   font-size: small;
   display: block;
-  
 }
 
 .agree-terms {
@@ -127,7 +131,7 @@ label {
   background-color: rgb(214, 212, 212);
   font-size: 10px;
   text-align: center;
-  padding: 15px 1px; 
+  padding: 15px 1px;
 }
 
 .btm-span {
@@ -147,7 +151,7 @@ label {
 
 .info-list li {
   display: inline-block;
-  margin: 0px 10px;
+  margin: 1px 10px;
   color: #0077c5;
   font-size: smaller;
 }
