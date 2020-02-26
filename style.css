@@ -1,6 +1,7 @@
 html {
   width: 100%;
   height: auto;
+  background: #eceef1;
 }
 
 * *::before *::after {
@@ -8,8 +9,8 @@ html {
 }
 
 .sign-in-area {
-  float: right;
   margin: 2px 25px 2px 0;
+  float: right;
 }
 
 .forgot-id {
@@ -38,6 +39,7 @@ html {
   background: blue;
   border: 0;
   color: white;
+  cursor: pointer;
 }
 
 .fa-lock {
@@ -47,8 +49,83 @@ html {
 .items li {
   list-style: none;
   display: inline-block;
-}
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: large;
+  
+} 
 
 .main-section {
-  
+  margin-top: 60px;
+}
+
+h2, h1 {
+  text-align: center;
+}
+
+.top-bar, .top-bar a {
+  display: block;
+  text-align: center;
+}
+
+.items {
+  text-align: center;  
+}
+
+form {
+  border: 1px solid #c7c7c7;
+  background: #fff;
+  width: 380px;
+  margin: auto;
+  border-radius: 2px;    
+}
+
+.user-info-container {
+  border: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.user-info-container input {
+  display: block;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid rgb(204, 200, 200);
+  margin: 10px 0 27px 0px;
+  padding: 8px 0px;
+}
+
+label {
+  margin-left: 10px;
+}
+.btn-submit {
+  background: #0077c5;
+  font-size: x-large;
+  border-radius: 4px;
+  border: 0;
+  width: 100%;
+}
+
+.user-info-container span {
+  font-size: small;
+  display: block;
+}
+
+.agree-terms {
+  margin: 15px 50px 5px 50px;
+  font-size: small;
+}
+
+.btm-div {
+  background-color: rgb(214, 212, 212);
+  height: 50px;
+  font-size: small;
+  text-align: center; 
+}
+
+.btm-span {
+  margin: 0;
+  padding: 0;
+  outline: none;
 }
