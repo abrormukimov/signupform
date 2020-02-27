@@ -32,11 +32,11 @@ Linkedin: <a href="https://linkedin.com/in/abror-mukimov-4aa2131a2/">abrormukimo
 
 👤 Author2
 
-Github: @jelilfaisalabudu
+Github: <a href="https://github.com/JelilFaisalAbudu/jelilabudufaisal.github.io">@jelilfaisalabudu</a>
 
-Twitter: @jelilfaisalabudu
+Twitter: <a href="https://twitter.com/jelilabudu">@jelilabudu</a>
 
-Linkedin: jelilfaisalabudu
+Linkedin: <a href="https://www.linkedin.com/in/jelil-faisal-abudu-3b7a2182/">jelilfaisalabudu</a>
 
 🤝 Contributing
 
