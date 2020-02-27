@@ -24,11 +24,11 @@ Authors:
 
 👤 Author1
 
-Github: <a href="https://https://github.com/abrormukimov">@abrormukimov</a>
+Github: <a href="https://github.com/abrormukimov">@abrormukimov</a>
 
 Twitter: <a href="https://twitter.com/abrormukimov">@abrormukimov</a>
 
-Linkedin: <a href=""https://linkedin.com/in/abror-mukimov-4aa2131a2/>abrormukimov</a>
+Linkedin: <a href="https://linkedin.com/in/abror-mukimov-4aa2131a2/">abrormukimov</a>
 
 👤 Author2
 
